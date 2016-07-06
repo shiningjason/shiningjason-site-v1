@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900i">
   <link rel="stylesheet" href="/styles/main.css">
 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="@shiningjason">
@@ -179,5 +182,18 @@
     <div class="title">Nice to meet you!</div>
     <div>🐳</div>
   </footer>
+
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        .then(function(registration) {
+          console.log('Service Worker Registered');
+        });
+      navigator.serviceWorker.ready
+        .then(function(registration) {
+          console.log('Service Worker Ready');
+        });
+    }
+  </script>
 </body>
 </html>
