@@ -59,6 +59,7 @@ main section:first-child {
 
 footer {
   background: #f9f9f9;
+  padding-bottom: 75px;
 }
 
 .list {
