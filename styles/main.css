@@ -15,10 +15,6 @@ a {
   text-decoration: none;
 }
 
-mark {
-  background-color: #F5FFCD;
-}
-
 header, main, footer {
   width: 100%;
   margin: 0 auto;
