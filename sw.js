@@ -1,6 +1,6 @@
 importScripts('cache-polyfill.js');
 
-var cacheName = 'shiningjason-v1';
+var cacheName = 'shiningjason-v4';
 var filesToCache = [
   '/',
   '/?homescreen=1',
