@@ -6,6 +6,10 @@ body {
   font-size: 16px;
 }
 
+main,section,div {
+  box-sizing: border-box;
+}
+
 a {
   color: #4b8971;
   text-decoration: none;
@@ -31,7 +35,7 @@ header {
 
 main {
   max-width: 660px;
-  padding: 16px 0;
+  padding: 16px 0 36px 0;
 }
 
 main:after {
@@ -107,4 +111,11 @@ footer {
   height: 50px;
   background-color: #f0f0f0;
   border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  };
 }
