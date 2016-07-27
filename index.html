@@ -7,8 +7,6 @@
   <title>@shiningjason</title>
 
   <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Halant">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,900i">
   <link rel="stylesheet" href="/styles/main.css">
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -27,181 +25,183 @@
 
   <!-- Tile icon for Win8 (144x144 + tile color) -->
   <meta name="msapplication-TileImage" content="/assets/icons/icon-144x144.png">
-  <meta name="msapplication-TileColor" content="#4b8971">
+  <meta name="msapplication-TileColor" content="#191919">
 
   <!-- Color the status bar on mobile devices -->
-  <meta name="theme-color" content="#4b8971">
+  <meta name="theme-color" content="#191919">
 </head>
 <body>
-  <header>
-    <div>🙂</div>
-    <div class="title">Jason Chung</div>
-  </header>
-
-  <main>
-    <section>
-      <h1>Hi!</h1>
-      <div>
-        <p>
-          我是一位 Frontend developer, Design Thinker！
-        </p>
-        <p>
-          熱衷於透過「人本設計」解決問題和創業，目標是成為最有價值的設計師 👓
-        </p>
+  <main class="container">
+    <div class="window">
+      <div class="window-header">
+        <div class="controls">
+          <div class="control control--close"></div>
+          <div class="control control--minimize"></div>
+          <div class="control control--fullScreen"></div>
+        </div>
+        <div class="title">🙂</div>
       </div>
-    </section>
-
-    <section>
-      <h1>Contact & Socials.</h1>
-      <div>
-        <p>
-          我在 <a href="https://twitter.com/shiningjason" target="_blank">Twitter</a> 或 <a href="https://www.linkedin.com/in/shiningjason" target="_blank">Linkedin</a> 等待您；
-        </p>
-        <p>
-          或是你也可以在 <a href="https://github.com/shiningjason1989" target="_blank">GitHub</a>、<a href="https://speakerdeck.com/shiningjason1989" target="_blank">Speaker Deck</a> 和 <a href="https://www.instagram.com/shiningjason/" target="_blank">Instagram</a> 找到我的蹤影。
-        </p>
-      </div>
-    </section>
-
-    <section>
-      <h1>My experiences.</h1>
-      <div>
-        <ul class="list">
-          <li>
-            <div class="list-title">Frontend</div>
-            我熟悉 React, Redux，目前正在玩 Chatbot 和 Progressive Web App。
-          </li>
-          <li>
-            <div class="list-title">Backend</div>
-            我出身於 Java, Spring, Hibernate，但是現在這些記憶已經快被拔光了，未來想玩 Go。
-          </li>
-          <li>
-            <div class="list-title">Design Thinking</div>
-            我是「設計思考」和「以人為本設計」的信仰者，曾經參與和主辦 Design Thinking 工作坊。<br>
-            <a href="https://www.ideo.com/" target="_blank">IDEO</a> 是我的夢想工作，當個解決問題的設計師是我的夢想職業。
-          </li>
-          <li>
-            <div class="list-title">UI / UX</div>
-            我認為自己適合當一個 UX 研究員；我用 Sketch 3 當作工具繪製 Web UI。
-          </li>
-          <li>
-            <div class="list-title">Typography</div>
-            我喜歡字型，也參與過相關的課程，並且在 jibako 賣合字。
-            <div class="photos">
-              <a class="photo" href="https://www.instagram.com/p/uSJfxejYiu" target="_blank"><img alt="歐文字體課程" src="/assets/typography1.jpg"></a>
-              <a class="photo" href="https://www.instagram.com/p/0orL8nDYvN" target="_blank"><img alt="中文字型課程" src="/assets/typography2.jpg"></a>
+      <div class="window-body">
+        <div class="markdown">
+          <h2 id="section-hi">
+            <a href="#section-hi">Hi, I'm Jason Chung.</a>
+          </h2>
+          <p>我是一位 Frontend developer, Design thinker!</p>
+          <p>熱衷於透過人本設計解決問題，人生目標是成為最有價值的設計師 👓。</p>
+          <h2 id="section-contact">
+            <a href="#section-contact">Contact & Social.</a>
+          </h2>
+          <p>我在 <a href="https://twitter.com/shiningjason" target="_blank">Twitter</a> 或 <a href="https://www.linkedin.com/in/shiningjason" target="_blank">Linkedin</a> 等待您；</p>
+          <p>或是你也可以在 <a href="https://github.com/shiningjason1989" target="_blank">GitHub</a>、<a href="https://speakerdeck.com/shiningjason1989" target="_blank">Speaker Deck</a> 和 <a href="https://www.instagram.com/shiningjason" target="_blank">Instagram</a> 找到我的蹤影。</p>
+          <h2 id="section-experience">
+            <a href="#section-experience">My experiences.</a>
+          </h2>
+          <ul>
+            <li>
+              <p><strong>Frontend</strong></p>
+              <p>我熟悉 React, Redux，目前正在玩 Chatbot 和 Progressive Web App。</p>
+            </li>
+            <li>
+              <p><strong>Backend</strong></p>
+              <p>我出身於 Java, Spring, Hibernate，但是現在這些記憶已經快被拔光了，未來想玩 Go。</p>
+            </li>
+            <li>
+              <p><strong>Design Thinking</strong></p>
+              <p>我是「設計思考」和「以人為本設計」的信仰者，曾經參與和主辦 Design Thinking 工作坊。</p>
+              <p><a href="https://www.ideo.com" target="_blank">IDEO</a> 是我的夢想工作，當個解決問題的設計師是我的夢想職業。</p>
+            </li>
+            <li>
+              <p><strong>UI / UX</strong></p>
+              <p>我認為自己適合當一個 UX 研究員；我用 Sketch 3 當作工具繪製 Web UI。</p>
+            </li>
+            <li>
+              <p><strong>Typography</strong></p>
+              <p>我喜歡字型，也參與過相關的課程，並且在 jibako 賣合字。</p>
+              <div class="photos">
+                <a class="photo" href="https://www.instagram.com/p/uSJfxejYiu" target="_blank">
+                  <img alt="歐文字體課程" src="/assets/typography1.jpg">
+                </a>
+                <a class="photo" href="https://www.instagram.com/p/0orL8nDYvN" target="_blank">
+                  <img alt="中文字型課程" src="/assets/typography2.jpg">
+                </a>
+              </div>
+            </li>
+            <li>
+              <p><strong>Logo Design</strong></p>
+              <div class="photos">
+                <a class="photo" href="http://hii.heartech.com.tw/" target="_blank">
+                  <img alt="Hii" src="/assets/hii-logo.png">
+                </a>
+                <a class="photo" href="http://www.4cats.io/" target="_blank">
+                  <img alt="4cats.io" src="/assets/4cats-logo.png">
+                </a>
             </div>
-          </li>
-          <li>
-            <div class="list-title">Logo Design</div>
-            <div class="photos">
-              <a class="photo" href="http://hii.heartech.com.tw/" target="_blank"><img alt="Hii" src="/assets/hii-logo.png"></a>
-              <a class="photo" href="http://www.4cats.io/" target="_blank"><img alt="4cats.io" src="/assets/4cats-logo.png"></a>
-            </div>
-          </li>
-          <li>
-            <div class="list-title">Product Operating</div>
-            我今年對於 Lean Startup, Growth Hacking 也是略懂略懂，認為以人為本還是所有解決方案的核心呀！
-          </li>
-        </ul>
+            </li>
+            <li>
+              <p><strong>Product Operating</strong></p>
+              <p>我今年對於 Lean Startup, Growth Hacking 也是略懂略懂，認為以人為本還是所有解決方案的核心呀！</p>
+            </li>
+          </ul>
+          <h2 id="section-jobs">
+            <a href="#section-jobs">Jobs.</a>
+          </h2>
+          <ul>
+            <li>
+              <p>
+                <strong>
+                  <a href="http://hii.heartech.com.tw" target="_blank">Hii</a>
+                </strong>
+              </p>
+              <p>這是我的第一個創業 - 匿名聊天社群；雖然現在已經 😇，不過我學到很多！</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://4cats.io" target="_blank">4cats.io</a>
+                </strong>
+              </p>
+              <p>這是職涯上我參與的第一個從無到有的產品。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="http://www.jibako.com/gigs/100" target="_blank">我能為您的名字設計合字｜jibako</a>
+                </strong>
+              </p>
+              <p>這是我在網路上賣的第一個設計。</p>
+            </li>
+          </ul>
+          <h2 id="section-buildings">
+            <a href="#section-buildings">Buildings.</a>
+          </h2>
+          <ul>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://github.com/shiningjason1989/react-native-animated-segmented-control" target="_blank">react-native-animated-segmented-control</a>
+                </strong>
+              </p>
+              <p>React Native 的小動畫套件。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://github.com/shiningjason1989/postcss-modules-emoji-classname" target="_blank">postcss-modules-emoji-classname</a>
+                </strong>
+              </p>
+              <p>透過 PostCSS 和 CSS Modules 將你的 class 轉換成表情符號！🍻</p>
+            </li>
+          </ul>
+          <h2 id="section-writings">
+            <a href="#section-writings">Writings.</a>
+          </h2>
+          <ul>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://medium.com/@shiningjason" target="_blank">Medium</a>
+                </strong>
+              </p>
+              <p>一些搬得上檯面的技術文章。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="http://shiningjason.logdown.com" target="_blank">Logdown</a>
+                </strong>
+              </p>
+              <p>一些學習筆記。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://github.com/shiningjason1989/knowledge-notes/issues" target="_blank">Essays</a>
+                </strong>
+              </p>
+              <p>一些靈機一動的心得。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://github.com/shiningjason1989/react-quick-tutorial" target="_blank">React Quick Tutorial</a>
+                </strong>
+              </p>
+              <p>幫助大家學習 React, Flux, Redux, Immutable 的文字教材。</p>
+            </li>
+            <li>
+              <p>
+                <strong>
+                  <a href="https://github.com/shiningjason1989/react-build-systems-tutorial" target="_blank">React Build Systems Tutorial</a>
+                </strong>
+              </p>
+              <p>幫助大家建置 React Build Systems 的筆記。</p>
+            </li>
+          </ul>
+          <br>
+          <p>Nice to meet you! 🐳</p>
+        </div>
       </div>
-    </section>
-
-    <section>
-      <h1>
-        Jobs.
-      </h1>
-      <div>
-        <ul class="list">
-          <li>
-            <a href="http://hii.heartech.com.tw/" target="_blank">Hii</a><br>
-            這是我的第一個創業 - 匿名聊天社群；雖然現在已經 😇，不過我學到很多！
-          </li>
-          <li>
-            <a href="https://4cats.io" target="_blank">4cats.io</a><br>
-            這是職涯上我參與的第一個從無到有的產品。
-          </li>
-          <li>
-            <a href="http://www.jibako.com/gigs/100" target="_blank">我能為您的名字設計合字｜jibako</a><br>
-            這是我在網路上賣的第一個設計。
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h1>
-        Buildings.
-      </h1>
-      <div>
-        <ul class="list">
-          <li>
-            <a href="https://github.com/shiningjason1989/react-native-animated-segmented-control" target="_blank">react-native-animated-segmented-control</a><br>
-            React Native 的小動畫套件。
-          </li>
-          <li>
-            <a href="https://github.com/shiningjason1989/postcss-modules-emoji-classname" target="_blank">postcss-modules-emoji-classname</a><br>
-            透過 PostCSS 和 CSS Modules 將你的 class 轉換成表情符號！🍻
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h1>
-        Writings.
-      </h1>
-      <div>
-        <ul class="list">
-          <li>
-            <a href="https://medium.com/@shiningjason" target="_blank">Medium</a><br>
-            一些搬得上檯面的技術文章。
-          </li>
-          <li>
-            <a href="http://shiningjason.logdown.com/" target="_blank">Logdown</a><br>
-            一些學習筆記。
-          </li>
-          <li>
-            <a href="https://github.com/shiningjason1989/knowledge-notes/issues" target="_blank">Small Talks</a><br>
-            一些靈機一動的心得。
-          </li>
-          <li>
-            <a href="https://github.com/shiningjason1989/react-quick-tutorial" target="_blank">React Quick Tutorial</a><br>
-            幫助大家學習 React, Flux, Redux, Immutable 的文字教材。
-          </li>
-          <li>
-            <a href="https://github.com/shiningjason1989/react-build-systems-tutorial" target="_blank">React Build Systems Tutorial</a><br>
-            幫助大家建置 React Build Systems 的筆記。
-          </li>
-        </ul>
-      </div>
-    </section>
+    </div>
   </main>
-
-  <footer>
-    <div class="title">Nice to meet you!</div>
-    <div>🐳</div>
-  </footer>
-
-  <script src="https://cdn.smooch.io/smooch.min.js"></script>
-  <script>
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js', { scope: '/' })
-        .then(function(registration) {
-          console.log('Service Worker Registered');
-        });
-      navigator.serviceWorker.ready
-        .then(function(registration) {
-          console.log('Service Worker Ready');
-        });
-    }
-
-    Smooch.init({
-      appToken: '3m1sit61ltwgzliq8n2yw2ggb',
-      customText: {
-        headerText: '🤖'
-      }
-    });
-  </script>
 </body>
 </html>
